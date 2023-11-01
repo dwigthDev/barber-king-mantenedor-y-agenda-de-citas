@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+header {
+    background-image: url("udfront-us-east-1.images.arcpublishing.com/elcomercio/YN6VXHM5YNEH5K6U2I433PCG7Q.jpg");
+    text-align: center; 
+    color: #fff;
+    background-size: cover;
+    height: 250px;
+    overflow: hidden;
+    background-color: #333; /* Cambiamos el color de fondo del header */
+    position: relative;
+}
+nav ul {
+    
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#registro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilo para el enlace "Ya tienes cuenta, inicia sesión" */
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li a:hover {
+    text-decoration: underline; 
+}
+
+
+/* santiago  */
+.img-con{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 50%;
+}
+.txt{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid #ffbf00;
+    padding-bottom: 5px;
+}
+h2{
+    margin-top: 10px;
+}
+/*hiver botones dorados del nav*/
+
+.btn-warning:hover{
+    background-color: #555;
+    color: #ffc107;
+    border: solid #555;
+    height: 38.21px;
+}
+/* quitar ek hover de los botones */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: transparent; /* Cambia el color de fondo al que desees o déjalo transparente */
+}
+.text-center{
+    display: flex ;
+    align-items: center;
+}
+.card-img-top:hover{
+    transform: scale(1);
+}
+.red{
+    margin-top: 20px;
+width: 40px;
+}
+.redes{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+@media (max-width: 450px) {
+    .display {
+      display: none;
+    }
+    
+  } 
